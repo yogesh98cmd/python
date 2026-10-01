@@ -1,6 +1,17 @@
-marks = [54,56,58 ]
+'''marks = [54,56,58 ]
 mix = [54,56,58,"hi",4.7]
 
-print(mix[0])
-print(marks[0:2])
+print(mix)
+print(marks)
 # indexing ke through bhi print kr ske
+mix.append(63) #it'll update the list
+print(mix)
+mix.remove("hi")
+mix.pop()
+print(mix)'''
+
+marks = [54,56,58,67,89,56,44 ]
+mix = [54,56,58,"hi",4.7,"l"]
+
+mix.pop()
+print(mix)
