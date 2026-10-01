@@ -1,0 +1,131 @@
+# # # # # positive.negative,0 qn
+# # # # # number = int(input("enter a number "))
+# # # # # if (number>0):
+# # # # #     print("the number is positive")
+# # # # # elif (number<0):
+# # # # #         print("the number is negative")
+# # # # # else:
+    #  print("the number is zero")
+
+
+# # # # even odd qn
+
+# # # # num = int(input("enter a number:-\n "))
+# # # # if (num%2==0):
+# # # #     print("number is even")
+# # # # else:
+# # # #     print("number is odd")
+
+
+# # # # match case
+# # # num = int(input("enter a number:-\n"))
+
+# # # match num:
+# # #     case 1:
+# # #         print("today is monday")
+# # #     case 2:
+# # #         print("today is tuesday")
+# # #     case 3:
+# # #         print("today is wednesday")
+# # #     case 4:
+# # #         print("today is thrusday")
+# # #     case 5:
+# # #         print("today is friday")
+# # #     case 6:
+# # #         print("today is satday")
+# # #     case 7:
+# # #         print("today is sunday")
+# # #     case _:
+# # #         print("inavlid day")
+
+
+# # # calculator
+# # # a = float(input("enter 1 number\n "))
+# # # b = float(input("enter 2 number\n"))
+ 
+# # # operation = input("chhose operation\n")
+# # # match operation:
+# # #     case "+":
+# # #         print(a+b)
+# # #     case "-":
+# # #         print(a-b)
+# # #     case "*":
+# # #         print(a*b)
+# # #     case "/":
+# # #         print(a/b)
+# # #     case "%":
+# # #         print(a%b)
+# # #     case _:
+# # #         print("invalid operation")
+
+
+# # # # for loop 1-10
+# # # for i in range (0,11):
+# # #     print(i)
+
+# # # # table entered by user
+# # # n = int(input("enter the table\n"))
+# # # for i in range (1,11):
+# # #     print(n,"x",i,"=",n*i)
+
+# # # sum of 1-100
+# # # sum = 0
+# # # for i in range (0,101):
+# # #     sum += i
+# # #     print(sum)
+ 
+# # # n = int(input("enter the number:-\n"))
+# # # sum = n*(n+1)/2
+# # # print(sum)
+
+# # # print the following pattern-
+# # # *
+# # # **
+# # # ***
+# # # *****
+
+# # # for i in range (1,5):
+# # #     print("*"*i)
+# # # for i in range(4,0,-1):
+# # #      print("*"*i)
+
+# # # 1 to 10 by while loop
+# # # sum=0
+# # # i=0
+# # # while i<100:
+# # #     print(i)
+# # #     i+=1
+
+# # # enter right password question
+# # correct_password = "lucky@123"
+
+# # while True:
+# #     password = input("Enter Password: ")
+
+# #     if password == correct_password:
+# #         print("Success! You are logged in")
+# #         break
+# #     else:
+# #         print("Wrong Password! Try again")
+ 
+#######################################
+# # reverse a number using while loop #
+#  @@DOUBT@@                          #
+# num = 1234                          #
+# print (str(num)[::-1])              #
+#######################################
+
+# use a for loop print 1-10 stop loop at 7
+
+for i in range(0,11):
+    if i==7:
+        break
+    print(i)
+print()
+
+
+for i in range(0,11):
+    
+    if i==5:
+        continue
+    print(i)

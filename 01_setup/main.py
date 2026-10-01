@@ -1,0 +1,1 @@
+print("hello puttay aur bata ki haal hai")

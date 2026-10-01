@@ -1,0 +1,6 @@
+marks = [54,56,58 ]
+mix = [54,56,58,"hi",4.7]
+
+print(mix[0])
+print(marks[0:2])
+# indexing ke through bhi print kr ske
