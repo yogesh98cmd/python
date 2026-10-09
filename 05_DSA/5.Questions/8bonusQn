@@ -1,0 +1,9 @@
+d1={"name":"john","age":20,"grade":"A"}
+d2={"name":"don","age":23,"grade":"B"}
+child = {
+    "std":d1,
+    "std":d2
+}
+print(std)
+c =d1.update(d2)
+print(c)
