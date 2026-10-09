@@ -10,4 +10,4 @@ print(marks)
 # specifically printing key or value
 print(marks.keys())
 print(marks.values())
-marks.
+marks
